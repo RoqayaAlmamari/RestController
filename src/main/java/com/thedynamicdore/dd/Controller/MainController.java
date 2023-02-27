@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 @RestController
 
-//@RequestMapping(path= "/api")
+//@RequestMapping(path= "/api")// to make only one git request
 public class MainController {
 
     // GET request that returns a HashMap with a "Result" message and a status code of 200
